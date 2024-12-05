@@ -1,0 +1,87 @@
+<!DOCTYPE html> <!--le dice al navegador que es un documento html-->
+<html lang="es"> <!-- Aquí indicamos el lenguaje de la página-->
+<head>
+    <!--Metadatos-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Tienda de Ropa</title>
+    
+    <!--
+    1. HTML no es un lenguaje de programación es un lenguaje de marcado
+    2. HTML significa: Hypert text markup language
+    3. HTML permite crear una estructura para un sitio web o página web
+    4. Utiliza sintaxis basada etiquetas , una para apertua y una para cierre, salvo algunas excepciones
+    5. la página que es llamada por el navedor debe llamarse index.html y debe estar en la raíz de carpeta del sitio
+    -->
+</head>
+<body>
+    <style>
+        h3{
+            background-color: cadetblue;
+        }
+        i{
+            font-size: 18px;
+        }
+    </style>
+    <!--Etiquetas de encabezado h1 al h6
+    solo debemos tener un h1 por página
+    Máximo recomendado un número de dos h2 por páginas
+    Del h3 al h6 para otro subtítulos
+    -->
+    <h1 style="background-color: brown;">Hola soy h1</h1>
+    <h3>Hola h3</h3>
+    <h6>Hola h6</h6>
+    <p><b>Lorem</b> ipsum dolor sit, amet consectetur adipisicing elit. Laudantium corrupti, enim perferendis nemo commodi nam ipsa ad accusamus consequatur quia tenetur aperiam architecto iusto doloribus sed a eaque blanditiis repellat.
+    Facere voluptatibus nam repellat deserunt quos earum consectetur quo possimus inventore recusandae illo nulla nobis, nihil harum enim assumenda esse iusto. <i>Fugit nobis</i>, nihil placeat voluptate accusamus amet assumenda asperiores.
+    Sunt in harum distinctio similique ea soluta beatae consectetur ipsa ratione delectus, minima reiciendis, nisi repudiandae nesciunt voluptatibus facilis rem voluptate ducimus libero autem? Natus soluta aliquid excepturi ipsam ullam?</p>
+    <!--
+    Elementos en bloque y elementos en línea, para diferenciar vamos colocar color a la etiquetas
+    -->
+    <!--
+    Para agregar estilos a las etiquetas se hace de 3 formas:
+    1. por la propiedad style en la etiqueta directamente (mala práctica)
+    2. POr la etiqueta <style> </style>, la etiqueta se coloca en el mismo documento html (mala práctica)
+    3. Por archivo de estilos (mejor práctica)
+    -->
+    <!--ETIQUETAS DE TEXTO
+    -->
+     <!-- Etiqueta em -->
+<em>Soy un texto en cursiva</em> <br><br>
+<!-- Etiqueta i -->
+<i>Soy otro texto en cursiva</i> <br><br>
+<!--Etiqueta br Nos hace un salto de linea-->
+<!-- La etiqueta b no pone el texto en negrita -->
+<b>Soy un texto en negrita</b><br><br>
+<!-- La etiqueta u no subraya el texto -->
+<u>Soy un texto subrayado</u>
+<!-- La etiqueta mark nos da importancia al texto -->
+<p>Me gusta mucho la comida <mark>Japonesa</mark> por ejemplo el <mark>SUSHI</mark></p>
+<!-- La etiqueta small nos hace el texto menos relevante  -->
+<small>Soy una aclaracion</small><br><br>
+<!--La etiqueta s nos tacha el texto-->
+<s>Soy un texto tachado</s>
+<!--Etiqueta sub y sup -->
+<p>la <strong>potencia</strong> de 5<sup>2</sup></p>
+<p>La formula del oxigeno es O<sub>2</sub></p>
+<!--La etiqueta cite para citas famosas -->
+<cite>Ser o no ser esa es la cuestion <br>Mario Benavidez</cite>
+<!-- Etiqueta para cita de bloque -->
+<blockquote cite="https://developer.mozilla.org/es/docs/Web/HTML/Element/blockquote">
+<p>
+ <strong>Etiqueta blockquote:</strong><br><br>
+
+ Crea citas en bloque, marca las citas a otros autores o documentos.
+
+ Sus etiquetas son: <blockquote> y </blockquote> (ambas obligatorias).
+ Está definido como: Elemento en bloque.
+
+ Crea una caja: En bloque.
+ Puede y debe contener: Uno o más elementos en bloque o script
+</p> </blockquote>
+<!--La etiqueta hr nos hace una linea horizontal-->
+<hr>
+<abbr title="nombre mascota">Pichocchio</abbr>
+    
+</body>
+</html>
